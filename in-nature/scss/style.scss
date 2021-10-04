@@ -1,0 +1,106 @@
+@import 'font';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  scrollbar-color: #ffeaa7 #1f2029;
+  scrollbar-width: thin;
+}
+
+body {
+  background-image: url("/images/forestsforest.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.25);
+
+  img {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      display: inline;
+      cursor: pointer;
+      position: relative;
+      margin: 1em;
+      color: black;
+      font-size: 22px;
+      font-family: $PoppinsBold;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+h1 {
+  font-family: $PoppinsBold;
+  margin: 0.5em 1em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 98px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+p {
+  font-family: $PoppinsMedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+}
+
+.div_outer {
+  display: flex;
+  justify-content: space-around;
+}
+.div_inner{
+  margin: 2em 0em;
+  display: flex;
+}
+.input,.btn {
+  border: none;
+  border-radius: 30px;
+  padding: 1em 20em 1em 1em;
+  text-decoration: none;
+  font-family: $PoppinsBold;
+  font-style: normal;
+  font-weight: bold;
+  color: #8D8A8A;
+  font-size: 0.95em;
+  letter-spacing: 2px;
+}
+.btn{
+  background: #0A8D61;
+  color: white;
+  margin: 0em 2em;
+  padding: 1em 2.5em;
+}
+#donate{
+  font-family: $PoppinsBold;
+}
+input[placeholder="Enter your amount"]{
+  padding: 1em 5em 1em 1em;
+}
