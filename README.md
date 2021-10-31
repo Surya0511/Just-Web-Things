@@ -8,5 +8,5 @@
 </div>
 <br>
 
-This place is for those who want to showcase their work in web-development and help the community.
+This place is for those who want to showcase their work in web-development and help the community by doing they can witness their own growth durung the process.
 
